@@ -8,5 +8,14 @@ namespace Zoolandia.animals
         {
             return "can";
         } }
+        public override void sleep ()
+        {
+            Console.WriteLine("I never sleep");
+        }
+        public Bird (string Sound)
+        {
+            this.Sound = Sound;
+        }
+
     }
 }
