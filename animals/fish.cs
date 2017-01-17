@@ -4,6 +4,8 @@ namespace Zoolandia.animals
 {
     public class Fish : Animal
     {
-        public bool CanSwim { get; set; }
-    }
+        public string CanSwim { get 
+        {
+            return "can";
+        } }    }
 }
