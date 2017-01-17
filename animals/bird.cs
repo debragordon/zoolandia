@@ -1,8 +1,8 @@
 using System;
 
-namespace Zoolandia
+namespace Zoolandia.animals
 {
-    public class Mammal : Animal
+    public class Bird : Animal
     {
         public bool CanFly { get; set; }
     }

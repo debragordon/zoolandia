@@ -1,7 +1,6 @@
 using System;
 
-namespace Zoolandia
-{
+namespace Zoolandia.animals {
     public class Animal
     {
         public string Name { get; set; }

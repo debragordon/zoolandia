@@ -1,6 +1,6 @@
 using System;
 
-namespace Zoolandia
+namespace Zoolandia.animals
 {
     public class Fish : Animal
     {

@@ -1,18 +1,12 @@
 using System;
 
-namespace Zoolandia
+namespace Zoolandia.animals
 {
     public class Mammal : Animal
     {
-        public bool HasLegs { get(){
-            if (HasLegs)
-            {
-                return "does";
-            }
-            else 
-            {
-                return "doesn't";
-            }
-        }; set; }
+        public string HasLegs { get 
+        {
+            return "does";
+        } }
     }
 }
