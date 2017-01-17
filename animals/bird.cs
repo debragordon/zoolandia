@@ -4,14 +4,9 @@ namespace Zoolandia.animals
 {
     public class Bird : Animal
     {
-        public bool CanFly { get; 
-        if (CanFly) {
-            return "can";
-        }
-        else
+        public string CanFly { get 
         {
-           return "can not"; 
-        }
-        }
+            return "can";
+        } }
     }
 }
