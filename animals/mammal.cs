@@ -9,13 +9,15 @@ namespace Zoolandia.animals
             return "does";
         }
         }
+        public int LegCount { get; set; }
+
         public override void sleep ()
         {
             Console.WriteLine("Hibernation time ...");
         }
-        public Mammal (string Sound)
+        public Mammal (string sound)
         {
-            this.Sound = Sound;
+            this.Sound = sound;
         }
     }
 }
