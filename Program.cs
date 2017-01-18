@@ -12,23 +12,24 @@ namespace Zoolandia
             var Lion = new Mammal("roar");
             Lion.Name = "Lion";
             Lion.Type = "Cat";
-            Lion.Color = "gold";
             Lion.sleep();
-            Console.WriteLine($"I have an animal that is a/an {Lion.Name} that is a {Lion.Type}. It is {Lion.Color} in color and it {Lion.HasLegs} have legs. Lions sound like this: {Lion.Sound}");
+            Lion.SetColor("gold");
+            Console.WriteLine($"I have an animal that is a/an {Lion.Name} that is a {Lion.Type}. It is {Lion.Color} in color and it {Lion.HasLegs} have legs. Lions sound like this: {Lion.Sound}. Lions are {Lion.Power}.");
 
             var Blackbird = new Bird("cawcaw");
             Blackbird.Name = "Blackbird";
             Blackbird.Type = "mysterious bird";
-            Blackbird.Color = "black";
             Blackbird.sleep();
-            Console.WriteLine($"I have an animal that is a/an {Blackbird.Name} that is a {Blackbird.Type}. It is {Blackbird.Color} in color and it {Blackbird.CanFly} fly. Birds sound like this: {Blackbird.Sound}");
+            Blackbird.SetPower("weak");
+            Console.WriteLine($"I have an animal that is a/an {Blackbird.Name} that is a {Blackbird.Type}. It is {Blackbird.Color} in color and it {Blackbird.CanFly} fly. Birds sound like this: {Blackbird.Sound}. Blackbirds are {Blackbird.Power}.");
 
             var Salmon = new Fish();
             Salmon.Name = "Salmon";
             Salmon.Type = "River Swimmer";
-            Salmon.Color = "rainbow";
+            Salmon.SetColor("rainbow");
             Salmon.sleep();
-            Console.WriteLine($"I have an animal that is a/an {Salmon.Name} that is a {Salmon.Type}. It is {Salmon.Color} in color and it {Salmon.CanSwim} swim."); 
+            Salmon.SetPower("so so");
+            Console.WriteLine($"I have an animal that is a/an {Salmon.Name} that is a {Salmon.Type}. It is {Salmon.Color} in color and it {Salmon.CanSwim} swim. Salmon are {Salmon.Power} in power."); 
 
         }
     }
