@@ -31,7 +31,7 @@ namespace Zoolandia
             Salmon.SetPower("so so");
             Console.WriteLine($"I have an animal that is a/an {Salmon.Name} that is a {Salmon.Type}. It is {Salmon.Color} in color and it {Salmon.CanSwim} swim. Salmon are {Salmon.Power} in power."); 
 
-            var Horse = new Mammal("nhayyyyy");
+          var Horse = new Mammal("nhayyyyy");
             Horse.Name = "Horse";
             Horse.Type = "Equine";
             Horse.sleep();
@@ -52,7 +52,6 @@ namespace Zoolandia
             Catfish.sleep();
             Catfish.SetPower("weak");
             Console.WriteLine($"I have an animal that is a/an {Catfish.Name} that is a {Catfish.Type}. It is {Catfish.Color} in color and it {Catfish.CanSwim} swim. Catfish are {Catfish.Power} in power."); 
-
         }
     }
 }
