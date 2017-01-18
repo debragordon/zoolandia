@@ -31,6 +31,28 @@ namespace Zoolandia
             Salmon.SetPower("so so");
             Console.WriteLine($"I have an animal that is a/an {Salmon.Name} that is a {Salmon.Type}. It is {Salmon.Color} in color and it {Salmon.CanSwim} swim. Salmon are {Salmon.Power} in power."); 
 
+            var Horse = new Mammal("nhayyyyy");
+            Horse.Name = "Horse";
+            Horse.Type = "Equine";
+            Horse.sleep();
+            Horse.SetColor("paint");
+            Console.WriteLine($"I have an animal that is a/an {Horse.Name} that is a {Horse.Type}. It is {Horse.Color} in color and it {Horse.HasLegs} have legs. Horses sound like this: {Horse.Sound}. Horses are {Horse.Power}.");
+
+            var Hummingbird = new Bird("hmmmmmmmm");
+            Hummingbird.Name = "Hummingbird";
+            Hummingbird.Type = "Bird";
+            Hummingbird.sleep();
+            Hummingbird.SetPower("weak");
+            Console.WriteLine($"I have an animal that is a/an {Hummingbird.Name} that is a {Hummingbird.Type}. It is {Hummingbird.Color} in color and it {Hummingbird.CanFly} fly. Birds sound like this: {Hummingbird.Sound}. Hummingbirds are {Hummingbird.Power}.");
+
+            var Catfish = new Fish();
+            Catfish.Name = "Catfish";
+            Catfish.Type = "River Swimmer";
+            Catfish.SetColor("blue");
+            Catfish.sleep();
+            Catfish.SetPower("weak");
+            Console.WriteLine($"I have an animal that is a/an {Catfish.Name} that is a {Catfish.Type}. It is {Catfish.Color} in color and it {Catfish.CanSwim} swim. Catfish are {Catfish.Power} in power."); 
+
         }
     }
 }
