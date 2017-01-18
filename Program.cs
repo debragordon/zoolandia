@@ -52,6 +52,26 @@ namespace Zoolandia
             Catfish.sleep();
             Catfish.SetPower("weak");
             Console.WriteLine($"I have an animal that is a/an {Catfish.Name} that is a {Catfish.Type}. It is {Catfish.Color} in color and it {Catfish.CanSwim} swim. Catfish are {Catfish.Power} in power."); 
+
+            var Fido = new Canine();
+            Fido.Name = "Della";
+            Console.WriteLine($"I have an animal that is a/an {Fido.Name}."); 
+
+            var Garfield = new Canine();
+            Garfield.Name = "Garfield";
+            Garfield.Type = "trouble maker";
+            Garfield.Color = "striped";
+            Console.WriteLine($"I have an animal that is a/an {Garfield.Name} that is a {Garfield.Type}. It is {Garfield.Color} in color."); 
+
+            var Dogfish = new Squalidae();
+            Dogfish.Name = "Puppy";
+            Dogfish.Venom = "on the dorsal";
+            Console.WriteLine($"I have an animal that is a/an {Dogfish.Name}. Dogfish are the only species that are poisonous {Dogfish.Venom} fin."); 
+            
+            var Ray = new Rajidae();
+            Ray.Name = "Raymond";
+            Ray.Tail = "has spikes";
+            Console.WriteLine($"I have an animal that is a/an {Ray.Name}. Ray have a tail that {Ray.Tail}.");
         }
     }
 }
