@@ -1,5 +1,3 @@
-using System;
-
 namespace Zoolandia.animals
 {
     public class Canine : Mammal
